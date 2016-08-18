@@ -1,0 +1,36 @@
+  fixtures/file.js
+
+  ✖ 'test' is defined but never used. (no-unused-vars)
+> 1 | const test = 1
+    |       ^
+  2 | 
+
+
+  fixtures/file2.js
+
+  ⚠ Missing space before function parentheses. (space-before-function-paren)
+> 1 | function add(a, b) {
+    |             ^
+  2 |     return a + b;
+  3 | }
+  4 | 
+
+  ✖ Expected indentation of 2 space characters but found 4. (indent)
+  1 | function add(a, b) {
+> 2 |     return a + b;
+    |     ^
+  3 | }
+  4 | 
+  5 | add(10, 20)
+
+  ✖ Extra semicolon. (semi)
+  1 | function add(a, b) {
+> 2 |     return a + b;
+    |                 ^
+  3 | }
+  4 | 
+  5 | add(10, 20)
+
+  3  errors
+  1 warning
+
