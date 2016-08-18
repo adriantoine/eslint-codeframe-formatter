@@ -7,7 +7,7 @@
     "test": "eslint index.js test/test.js && ava"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "files": [
     "index.js"
