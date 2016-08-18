@@ -1,7 +1,7 @@
 {
   "name": "eslint-codeframe-formatter",
   "version": "1.0.0",
-  "description": "Eslint formatter using babel code frame",
+  "description": "ESLint formatter using babel code frame",
   "main": "index.js",
   "scripts": {
     "test": "eslint index.js test/test.js && ava"
@@ -23,11 +23,7 @@
     "code-frame",
     "frame"
   ],
-  "author": {
-    "name": "Adrien Antoine",
-    "email": "adriantoine@gmail.com",
-    "url": "http://adriantoine.com/"
-  },
+  "author": "Adrien Antoine <adriantoine@gmail.com> (http://adriantoine.com/)",
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.16.0",
@@ -41,5 +37,13 @@
     "chalk": "^1.1.3",
     "log-symbols": "^1.0.2",
     "plur": "^2.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriantoine/eslint-codeframe-formatter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adriantoine/eslint-codeframe-formatter/issues"
+  },
+  "homepage": "https://github.com/adriantoine/eslint-codeframe-formatter#readme"
 }
