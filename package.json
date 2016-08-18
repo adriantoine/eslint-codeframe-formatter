@@ -1,6 +1,6 @@
 {
   "name": "eslint-codeframe-formatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint formatter using babel code frame",
   "main": "index.js",
   "scripts": {
